@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button oncontextmenu="alert('Hello World')">Alert</button>
+    <button oncontextmenu="console.log('Hello World')">Console</button>
+
+    <script>
+        // 01 data types
+        // var a = "Hello World"
+        // console.log(a, typeof (a))
+        
+        // var b = 123
+        // console.log(b, typeof (b))
+        
+        // var c = true
+        // console.log(c, typeof (c))
+        
+        // var d = ["apple", "banana", "cherry"]
+        // console.log(d, typeof (d))
+        
+        // var e = {name: "John Doe", age: 30}
+        // console.log(e, typeof (e))
+        
+        // var f = null;
+        //     console.log(f, typeof (f))
+            
+        // var g = new Date();
+        // console.log(g, typeof (g))
+        
+        // var h = new Object ()
+        // console.log(h, typeof (h))
+        
+        // var i = undefined;
+        // console.log(i, typeof (i))
+        
+        // var j = Symbol("key1");
+        // console.log(j, typeof (j))
+        
+        // var k = 54745445754765455656n
+        // console.log(k, typeof (k))
+        
+        // var l = !50;
+        // console.log(l, typeof (l))
+
+        // 02 var for strings and numbers
+        // var name = "Faisal"
+
+        // var firstName = "Faisal";
+        // var lastName = "Khan";
+
+        // var age = 30;
+
+        // 03 variable for concatenation
+
+        // var firstName = "Faisal";
+        // var lastName = "Khan";
+        // console.log(firstName + " " + lastName)
+        // console.log(" My firstName is " + firstName + " My last name is " + lastName)
+
+        // 04 legal and illegal variables name
+
+        // var name;
+        // var _name;
+        // var $name;
+        // var first_Name;  //snake case writing
+        // var firstName; // camel case writing
+        // var FirstName; // pascal case writing
+        // var name1st;
+        // var 1stname; // illegal
+
+        // 05 variable math familiar and unfamiliar method
+
+        // var a = 5;
+        // var b = 10;
+        // var sum = a + b;
+        // console.log(sum)
+
+        // var a = 10;
+        // a = a+ 10;
+        // a += 10;
+        // a += a;
+        // a *=a;
+        // console.log(a)
+
+
+        // 06 math ambiguity
+
+        // var sm = (3 + 5) * 5;
+        // console.log(sm)
+        
+        // 07 input from the user
+
+        // var input = prompt("Enter the name","Fahad")
+        // console.log("Hello " + input, typeof (input))
+
+        var input = prompt("Enter the age")
+        input = Number(input); //parse integer //parse float
+        console.log("Your age is " + input, typeof (input))
+
+        
+    </script>
+    
+</body>
+</html>
