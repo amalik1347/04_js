@@ -98,9 +98,135 @@
         // var input = prompt("Enter the name","Fahad")
         // console.log("Hello " + input, typeof (input))
 
-        var input = prompt("Enter the age")
-        input = Number(input); //parse integer //parse float
-        console.log("Your age is " + input, typeof (input))
+        // var input = prompt("Enter the age")
+        // input = Number(input); //parse integer //parse float
+        // console.log("Your age is " + input, typeof (input))
+
+
+        // 08 if statement Vanilla Javasript
+
+        // var a = 12;
+
+        // if (a === 10) {     //=== just to check the data type along with value of data
+        //     console.log("a value is " + a)
+        // } else if (a === 11){
+        //     console.log("a value is " + 11)
+        // }else{
+        //     console.log("a value is neither 10 nor 11")
+        // }
+
+        // var marks = prompt("Enter the value")
+
+        // marks = 90
+        // if (marks >= 90) {
+        //     console.log("Grade A")
+        //     // confirm("Grade A")  // display grade like alert
+        //     document.write("Grade A") //display on screen
+        // } else if (marks >= 80 && marks < 90) {
+        //     console.log("Grade B")
+        //     } else if (marks >= 70 && marks < 80) {
+        //     console.log("Grade C")
+        //     } else if (marks >= 60 && marks < 70) {
+        //     console.log("Grade D")
+        //     } else {
+        //     console.log("Grade F")
+        // }
+
+        // 09 Testing Statements/ Conditions
+
+        // marks = 111;
+        
+        // if (marks >= 90 && marks <= 100) {
+        //     console.log("Grade A")
+        // }else{
+        //     console.log("Invalid Marks out of 100")
+        // }
+
+        // var x = 10;
+        // var y = 20;
+        // if (x === 10 ?? y === 20) {
+        //     console.log("Both conditions are true")
+
+        // }
+
+        // 10 nested if statements
+
+        // var a = 10;
+        // var b = 20;
+        
+        // if (a ===  10){
+        //     if (b === 20){
+        //         console.log("a and b are 10 and 20")
+        //     } else {
+        //         console.log("b is not 20")
+        //     }
+        // }else{
+        //     console.log("a is not 10")
+        // }
+
+        // 11 if statement with Ecmascript
+
+        // var a = 10;
+        // var b = 20;
+        // // if (a === 10){console.log("Pass")}else{console.log("Failed")}
+        // // (a === 10) & console.log("Pass");  // if statement
+        // // (a === 10) ?  console.log("Pass") : console.log("Failed")  //:else. ? is if // Ecmasript Language
+
+        // (a === 10) ? console.log("Pass A") : (b === 20) ? console.log("Pass B") : console.log("Failed A and B") 
+
+        //12 Switch Statements (used to get accurate results from single variable) use case insteaad of if else etc ...
+        // Alt+Shift+F key  or formate document to indent the code
+
+
+        // var a = 92
+        // switch(a){
+        //     case 90: 
+        //         console.log("Value of a is 90")
+        //         break;
+        //     case 91: 
+        //         console.log("Value of a is 91")
+        //         break;
+        //     default: 
+        //         console.log("Value of a is neither 90 nor 91")
+        // }
+        // Primitive data type: Single values, i.e. string, boolean, Number, Symbol, BigInteger
+        // Non-Primitive data type: Object, Array
+
+        // 13 Arrays
+
+        // var arr = []
+        // console.log(arr)
+        // arr[0] = "Hello"
+        // arr[1] = "World"
+        // arr[2] = "!"
+        // console.log(arr)
+        // delete arr[0];
+        // console.log(arr)
+
+        var arr =["Hello", "World","!"]
+        // arr.push("Hello World", 34, true)
+        // console.log(arr)
+        // arr.pop();  // to remove last entry from array
+        // console.log(arr)
+
+        // arr.unshift("Hi! ") // to replace 1st entry from array
+        // console.log(arr)
+        // arr.shift();  // to remove 0 index entry from array, repeat shift for more than 1 entry
+        // console.log(arr)
+
+        // arr.splice(0, 1, "Hi!", 45)
+        // console.log(arr) // to replace (delete and add) 1st entry from array + 1 entry overload
+        // arr.splice(0,2, "Hi!", 45)
+        // console.log(arr) // to delete 2 entries from array
+        // arr.splice(1,2, "Hi!", 45) 
+        // console.log(arr) // 1st entry is index of start, 2nd is to delete the number of entries
+
+        // arr.splice(1,0, "Hi!", 45) 
+        // console.log(arr)
+
+        var slc = arr.slice(0,3)
+        console.log(slc)
+
 
         
     </script>
